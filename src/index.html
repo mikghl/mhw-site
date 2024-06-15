@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Monster Hunter Wilds</title>
+    <link rel="icon" href="/src/images/icone.jpg" type="image/png">
+</head>
+<body>
+    <!--Hero -->
+    <section class="hero">
+        <!--Header-->
+        <header class="header">
+            <div class="container">
+                <h1>
+                    <img class="header__logo" src="/src/images/logo.png" alt="logo">
+                </h1>
+                <div class="header__button">
+                    <div>
+                        <a class="header__button__link" href="#trailer">Trailer</a>
+                    </div>
+                    <div>
+                        <a class="header__button__link" href="#about">About Game</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+    <!-- Trailer -->
+    <section class="trailer trailer--gd" id="trailer">
+        <div class="container">
+            <h2 class="trailer__title">Trailer</h2>
+            <div class="trailer__video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/KceucvNCal8?si=Cl660rx2aCHIUnqF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div>
+                <p class="trailer__text">Monster Hunter Wilds releases <br> in <span id="contador"></span></p>
+            </div>
+        </div>
+    </section>
+    <!-- Conteúdo -->
+    <section class="mhw mhw--about-game" id="about">
+        <div class="container" data-aos="fade-left">
+            <div class="mhw__details">
+                <h2 class="mhw__details__title">About game</h2>
+                <p>"Monster Hunter Wilds" invites players into a vast and immersive world where they embark on epic quests, encounter mythical creatures, and forge their own path as hunters. Set in a breathtaking landscape filled with diverse ecosystems and untold dangers, players will uncover the secrets of the wilds and become part of a rich narrative that unfolds with every challenge faced and every monster conquered.</p>
+            </div>
+            <img class="mhw__image" src="images/game.jpg" alt="">
+        </div>
+    </section>
+    <!-- Conteúdo -->
+    <section class="mhw mhw--features">
+        <div class="container" data-aos="fade-right">
+            <img class="mhw__image" src="images/features.png" alt="">
+            <div class="mhw__details">
+                <h2 class="mhw__details__title">Features</h2>
+                <ul class="mhw__details__list">
+                    <li>Multiplayer battles</li>
+                    <li>Customizable characters</li>
+                    <li>Open world exploration</li>
+                    <li>Rich storyline</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Conteúdo -->
+    <section class="mhw mhw--testimonials">
+        <div class="container" data-aos="fade-left">
+            <div class="mhw__details">
+                <h2 class="mhw__details__title">Testimonials</h2>
+                <div>
+                    <blockquote>"The game exceeded my expectations. It's a must-play for any RPG fan!"</blockquote>
+                    <cite>John Doe, Gaming Enthusiast</cite>
+                </div>
+                <div>
+                    <blockquote>"Incredible graphics and immersive gameplay. Can't wait for the full release!"</blockquote>
+                    <cite>Jane Smith, Beta Tester</cite>
+                </div>
+            </div>
+            <img class="mhw__image" src="images/testimonials.png" alt="">
+        </div>
+    </section>
+</body>
+<!-- Scripts -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="/src/scripts/master.js"></script>
+</html>

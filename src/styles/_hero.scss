@@ -1,0 +1,27 @@
+.hero {
+    position: relative;
+    background-image: linear-gradient(
+        to top, 
+        rgba(0, 0, 1, 0.8) 0%, 
+        rgba(0, 0, 0, 0) 60%, 
+        rgba(0, 0, 0, 0.959) 100%
+        ), url('../images/hero.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+    @media (max-width: 1024px) {
+        background-size: cover;
+        height: 70vh;
+    }
+
+    @media (max-width: 768px) {
+        height: 50vh;
+    }
+
+    @media (max-width: 640px) {
+        height: 40vh;
+    }
+}

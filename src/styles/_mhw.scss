@@ -1,0 +1,65 @@
+
+.mhw {
+    padding: 80px 0;
+
+    &--about-game {
+        background-image: linear-gradient(180deg, #F0E68C, #F0E68C);
+    }
+    
+    &--features {
+    background-image: linear-gradient(180deg, #F0E68C, #F0E68C);
+    }
+
+    &--testimonials {
+        background-image: linear-gradient(180deg, #F0E68C, #8B4513 );
+    }
+
+    &--image-left {
+        .container {
+            flex-direction: row-reverse;
+        }
+
+    }
+    .container {
+        display: flex;
+        gap: 40px;
+    }
+
+    &__image {
+        max-width: 360px;
+    }
+
+    &__details {
+        line-height: 22px;
+
+        &__title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+
+        &__list {
+            list-style: none;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 640px) {
+        .container {
+            display: block;
+        }
+
+        &__image {
+            width: 100%;
+        }
+
+        &__details {
+            margin-right: 0;
+            margin-bottom: 16px;
+
+            &__title {
+                text-align: center;
+            }
+        }
+    }
+}

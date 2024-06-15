@@ -1,0 +1,38 @@
+.header {
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        max-width: 80px;
+        width: 100%;
+    }
+
+
+    &__button {
+        display: flex;
+        gap: 15px;
+        &__link {
+            padding: 16px;
+            background-color: rgb(230, 196, 111);
+            border-radius: 8px;
+            color: #fff;
+            border: 1px solid goldenrod;
+    
+            &:hover {
+                background-color: #D4AF37;
+            }
+        }
+    }
+
+    @media (max-width: 640px) {
+        padding: 20px 0;
+
+        &__logo {
+            height: 60px;
+        }
+    }
+}
